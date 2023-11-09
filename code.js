@@ -7,7 +7,7 @@ let a = 21; //what's a ?
 let age = 21; //Describes what age means
 
 
-/*-------------------------------------------------------*/
+
 // short and focused function
 
 // Not good:
@@ -22,4 +22,15 @@ function startCar() {
 
 function driveToDestination() {
     // Does another clear thing
+}
+
+
+/* avoid global variables */
+
+// Not good:
+let userName = 'Arnob'; // Global for everyone
+
+// Good:
+function greetUser(name) {
+    // Name is only known here
 }
