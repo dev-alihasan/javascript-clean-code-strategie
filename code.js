@@ -8,7 +8,7 @@ let age = 21; //Describes what age means
 
 
 
-// short and focused function
+/*******short and focused function***********/
 
 // Not good:
 function startCarAndDriveToDestination() {
@@ -23,9 +23,10 @@ function startCar() {
 function driveToDestination() {
     // Does another clear thing
 }
+/*********************************** */
 
 
-/* avoid global variables */
+/*******avoid global variables***********/
 
 // Not good:
 let userName = 'Arnob'; // Global for everyone
@@ -34,3 +35,15 @@ let userName = 'Arnob'; // Global for everyone
 function greetUser(name) {
     // Name is only known here
 }
+/**************************************** */
+
+
+
+/*******use Descriptive Name***********/
+
+// Not good:
+let temp = 32; // what does temp mean?
+
+// Good:
+let temperatureInCelsius = 32; // Describes clearly what it's
+/*************************************************************** */
